@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "workflow-history-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/workflowHistory/WorkflowHistoryWebPart.js",
+          "manifest": "./src/webparts/workflowHistory/WorkflowHistoryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorkflowHistoryWebPartStrings": "lib/webparts/workflowHistory/loc/{locale}.js"
+  }
+}

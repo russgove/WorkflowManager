@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "react-workflowhitory",
+    "libraryId": "d8c821b2-22bc-4443-83db-6271dc32ea50",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
